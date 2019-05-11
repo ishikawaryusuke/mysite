@@ -1,0 +1,41 @@
+.box {
+    margin: 2em 0;
+    width: 1200px;
+    height:630px;
+    border: 5px solid pink; 
+    border-radius: 30px 30px 30px 30px;
+    background-color: pink;
+}
+
+.box2 {
+    margin: 2em 0;
+        width: 1130px;
+    height:560px;
+    border: 5px solid black; 
+    border-radius: 30px 30px 30px 30px;
+    background-color: white;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.box2 .box-title {
+    font-size: 30px;
+    padding: 4px;
+    text-align: left;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    border-radius: 20px 20px 0px 0px;
+    border: 1px solid black; 
+    color:red;
+    text-decoration-color: black;
+
+}
+.box2 p {
+    margin: 0;
+    font-size: 30px;
+    color:red;
+    text-decoration-color: black;
+
+}
+
+
