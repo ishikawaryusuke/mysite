@@ -1,0 +1,37 @@
+[debug] [2019-04-21T05:18:19.485Z] ----------------------------------------------------------------------
+[debug] [2019-04-21T05:18:19.489Z] Command:       /Users/arteryex/.nodebrew/node/v11.8.0/bin/node /Users/arteryex/.nodebrew/current/bin/firebase serve --only hosting,functions
+[debug] [2019-04-21T05:18:19.490Z] CLI Version:   6.7.0
+[debug] [2019-04-21T05:18:19.490Z] Platform:      darwin
+[debug] [2019-04-21T05:18:19.490Z] Node Version:  v11.8.0
+[debug] [2019-04-21T05:18:19.492Z] Time:          Sun Apr 21 2019 14:18:19 GMT+0900 (GMT+09:00)
+[debug] [2019-04-21T05:18:19.492Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-21T05:18:19.509Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-21T05:18:19.510Z] > authorizing via signed-in user
+[debug] [2019-04-21T05:18:19.510Z] [iam] checking project shirei-haitatsu1 for permissions ["firebase.projects.get"]
+[debug] [2019-04-21T05:18:19.513Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/shirei-haitatsu1:testIamPermissions  
+
+[debug] [2019-04-21T05:18:20.425Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-21T05:18:20.428Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/shirei-haitatsu1  
+ 
+[debug] [2019-04-21T05:18:21.239Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/arteryex/apps/shireihaitatsu-ver.1'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-04-21T05:18:22.050Z] Fetching environment
+[debug] [2019-04-21T05:18:22.054Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1023194193698:getServerAppConfig  
+ 
+[debug] [2019-04-21T05:18:22.055Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1023194193698/clients/_:getWebAppConfig  
+ 
+[debug] [2019-04-21T05:18:22.776Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-21T05:18:22.777Z] Starting @google-cloud/functions-emulator
+[debug] [2019-04-21T05:18:22.812Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: dist
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-04-21T05:18:24.917Z] Parsing function triggers
+[info] ✔  functions: stock: http://localhost:5001/shirei-haitatsu1/us-central1/stock
+[info] [hosting] Rewriting /image/-LcyKNTGJwER0baeImFH to http://localhost:5001/shirei-haitatsu1/us-central1/stock for local Function stock
+[info] [hosting] Rewriting /image/gawga to http://localhost:5001/shirei-haitatsu1/us-central1/stock for local Function stock
+[info] [hosting] Rewriting /image/-LcyKNTGJwER0baeImFH to http://localhost:5001/shirei-haitatsu1/us-central1/stock for local Function stock
+[info] [hosting] Rewriting /image/-LcyKNTGJwER0baeImFH to http://localhost:5001/shirei-haitatsu1/us-central1/stock for local Function stock
